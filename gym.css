@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0; 
+   font-family: "Delius", cursive;
+}
+
+header,footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ol li {
+  display: inline ;
+}
+
+nav ol li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+
+nav ol li a:hover {
+  text-decoration: underline;
+}
+
+img{
+  height:250px;
+  border-radius: 10px;
+}
+
+#player-container {
+  display:flex;
+  /* if the width is full, the next container will go to the next line */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Player {
+  width: 310px;
+  /* space inside the player cards */
+  padding: 20px;
+  /* space between the player cards */
+  margin: 20px;
+  /* thickness type color */
+  border: 2px solid #027bff ;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px grey;
+  text-align: center ;
+}
+
+ section {
+   /* space inside the player cards */
+   padding: 20px;
+   /* space between the player cards */
+   margin: 20px;
+   /* thickness type color */
+   border: 2px solid #027bff ;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px grey;
+   background-color: white ;
+ }
+
+/* making our website responsive according to different devices */
+/* for phones */
+@media (max-width: 430px){
+  body{
+     background-color:#97978f;
+  }
+ 
+}
+/* for ipads */
+@media (min-width: 432px)and (max-width: 1030px) {
+  body{
+     background-color:#ded4c0;
+  }
+
+}
+
+/* px=pixels
+%=responsive */
+table {
+  width:100%;
+  text-align: center;
+}
+
+th {
+  font-size: 20px;
+  background-color: #007FFF;
+  color: white ;
+}
