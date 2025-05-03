@@ -91,10 +91,24 @@ img{
 table {
   width:100%;
   text-align: center;
+  border-collapse: collapse;
 }
 
 th {
   font-size: 20px;
   background-color: #007FFF;
   color: white ;
+}
+
+tr:hover {
+background-color: #b6e3f7;
+}
+
+#hidden {
+  visibility: hidden;
+}
+
+/* hover over secret and affect hidden */
+#secret:hover #hidden {
+  visibility: visible;
 }
